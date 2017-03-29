@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+@property (strong, nonatomic) IBOutlet UITextField *textfield;
+@property (strong, nonatomic) IBOutlet UIDatePicker *datePicker;
 
 @end
 
